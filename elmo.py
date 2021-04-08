@@ -1,10 +1,11 @@
 import discord, asyncio
 from random import choice
 import subprocess as sbp
+from token import token
 
 client = discord.Client()
 elmo = '745767772465922119'
-token = "NzQ1NzY3NzcyNDY1OTIyMTE5.Xz2kXA.Xk1VrvJOQ2t8eE0OkAxucLxObmE"
+
 
 global server
 
